@@ -11,13 +11,13 @@ const CircularChart = () => {
         datasets: [
             {
                 label: 'Customer Percentage',
-                data: [35, 20, 45],  // Define your segments (these are just placeholders)
+                data: [35, 20, 45],  
                 backgroundColor: [
-                    'rgba(211, 211, 211, 0.3)', // Light color for blank section
-                    'rgba(128, 0, 128, 0.8)',   // Purple for second segment
-                    'rgba(255, 105, 180, 0.8)', // Pink for third segment
+                    'rgba(211, 211, 211, 0.3)', 
+                    'rgba(128, 0, 128, 0.8)',   
+                    'rgba(255, 105, 180, 0.8)', 
                 ],
-                borderWidth: [23, 0, 14],  // Define varying thicknesses for each segment
+                borderWidth: [23, 0, 14],  
                 hoverBackgroundColor: [
                     'rgba(211, 211, 211, 0.3)',
                     'rgba(128, 0, 128, 0.8)',
@@ -29,14 +29,14 @@ const CircularChart = () => {
     };
 
     const options = {
-        cutout: '60%', // Defines the size of the hollow center
+        cutout: '60%',
         rotation: -100, 
         plugins: {
             legend: {
-                display: false, // Hide the legend
+                display: false, 
             },
             tooltip: {
-                enabled: false, // Disable the tooltip for a clean look
+                enabled: false, 
             },
         },
     };
